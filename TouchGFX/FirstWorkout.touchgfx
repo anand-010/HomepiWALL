@@ -1,0 +1,1019 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Components": [
+          {
+            "Type": "Image",
+            "RelativeFilename": "bg.png",
+            "Alpha": 255,
+            "Name": "screen_bg",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Components": [
+              {
+                "Type": "Image",
+                "RelativeFilename": "side_pannel_bg.png",
+                "Alpha": 255,
+                "Name": "side_pannel_bg",
+                "X": 0,
+                "Y": 0,
+                "Width": 40,
+                "Height": 250,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Pressed": "wifi_icon.png",
+                "Released": "wifi_icon.png",
+                "Alpha": 255,
+                "IconPressed": "wifi_icon.png",
+                "IconReleased": "wifi_icon.png",
+                "IconX": 0,
+                "IconY": 0,
+                "IconHeight": 84,
+                "IconWidth": 40,
+                "Name": "wifi_btn",
+                "X": 0,
+                "Y": 166,
+                "Width": 40,
+                "Height": 84,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Pressed": "config_icon.png",
+                "Released": "config_icon.png",
+                "Alpha": 255,
+                "IconPressed": "config_icon.png",
+                "IconReleased": "config_icon.png",
+                "IconX": 0,
+                "IconY": 0,
+                "IconHeight": 84,
+                "IconWidth": 40,
+                "Name": "config_btn",
+                "X": 0,
+                "Y": 82,
+                "Width": 40,
+                "Height": 84,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Pressed": "settings_icon.png",
+                "Released": "settings_icon.png",
+                "Alpha": 255,
+                "IconPressed": "settings_icon.png",
+                "IconReleased": "settings_icon.png",
+                "IconX": 0,
+                "IconY": 0,
+                "IconHeight": 84,
+                "IconWidth": 40,
+                "Name": "settings_btn",
+                "X": 0,
+                "Y": 0,
+                "Width": 40,
+                "Height": 84,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              }
+            ],
+            "Type": "Container",
+            "IsCacheableContainer": false,
+            "Name": "side_pannel",
+            "X": 0,
+            "Y": 11,
+            "Width": 40,
+            "Height": 250,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Components": [
+              {
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "RelativeFilename": "bulb_off.png",
+                    "Alpha": 255,
+                    "Name": "image2",
+                    "X": 126,
+                    "Y": 32,
+                    "Width": 76,
+                    "Height": 90,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": true,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "Image",
+                    "RelativeFilename": "bulb_on.png",
+                    "Alpha": 255,
+                    "Name": "image1",
+                    "X": 18,
+                    "Y": 32,
+                    "Width": 76,
+                    "Height": 90,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": true,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "Image",
+                    "RelativeFilename": "fan_on.png",
+                    "Alpha": 255,
+                    "Name": "image3",
+                    "X": 232,
+                    "Y": 32,
+                    "Width": 76,
+                    "Height": 90,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": true,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "Image",
+                    "RelativeFilename": "fan_off.png",
+                    "Alpha": 255,
+                    "Name": "image4",
+                    "X": 338,
+                    "Y": 32,
+                    "Width": 76,
+                    "Height": 90,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": true,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "Image",
+                    "RelativeFilename": "curtain_bg.png",
+                    "Alpha": 255,
+                    "Name": "image5",
+                    "X": 18,
+                    "Y": 152,
+                    "Width": 184,
+                    "Height": 90,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "Image",
+                    "RelativeFilename": "bulb_off.png",
+                    "Alpha": 255,
+                    "Name": "image6",
+                    "X": 232,
+                    "Y": 152,
+                    "Width": 76,
+                    "Height": 90,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": true,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "Image",
+                    "RelativeFilename": "bulb_on.png",
+                    "Alpha": 255,
+                    "Name": "image7",
+                    "X": 338,
+                    "Y": 152,
+                    "Width": 76,
+                    "Height": 90,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": true,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "ButtonWithIcon",
+                    "Pressed": "curtain_left.png",
+                    "Released": "curtain_left.png",
+                    "Alpha": 255,
+                    "IconPressed": "curtain_left.png",
+                    "IconReleased": "curtain_left.png",
+                    "IconX": 0,
+                    "IconY": 0,
+                    "IconHeight": 55,
+                    "IconWidth": 59,
+                    "Name": "buttonWithIcon1",
+                    "X": 29,
+                    "Y": 162,
+                    "Width": 59,
+                    "Height": 55,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "ButtonWithIcon",
+                    "Pressed": "curtain_right.png",
+                    "Released": "curtain_right.png",
+                    "Alpha": 255,
+                    "IconPressed": "curtain_right.png",
+                    "IconReleased": "curtain_right.png",
+                    "IconX": 0,
+                    "IconY": 0,
+                    "IconHeight": 55,
+                    "IconWidth": 59,
+                    "Name": "buttonWithIcon1_1",
+                    "X": 136,
+                    "Y": 162,
+                    "Width": 59,
+                    "Height": 55,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "TextArea",
+                    "TextId": "SingleUseId17",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Alpha": 255,
+                    "AutoSize": true,
+                    "LineSpacing": 0,
+                    "Name": "curtain_text",
+                    "X": 88,
+                    "Y": 221,
+                    "Width": 40,
+                    "Height": 14,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "TextArea",
+                    "TextId": "SingleUseId18",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Alpha": 255,
+                    "AutoSize": true,
+                    "LineSpacing": 0,
+                    "Name": "bulb1_text",
+                    "X": 41,
+                    "Y": 102,
+                    "Width": 35,
+                    "Height": 14,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "TextArea",
+                    "TextId": "SingleUseId19",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Alpha": 255,
+                    "AutoSize": true,
+                    "LineSpacing": 0,
+                    "Name": "bulb2_text",
+                    "X": 148,
+                    "Y": 102,
+                    "Width": 35,
+                    "Height": 14,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "TextArea",
+                    "TextId": "SingleUseId20",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Alpha": 255,
+                    "AutoSize": true,
+                    "LineSpacing": 0,
+                    "Name": "bulb3_text",
+                    "X": 254,
+                    "Y": 102,
+                    "Width": 35,
+                    "Height": 14,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "TextArea",
+                    "TextId": "SingleUseId21",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Alpha": 255,
+                    "AutoSize": true,
+                    "LineSpacing": 0,
+                    "Name": "bulb4_text",
+                    "X": 359,
+                    "Y": 102,
+                    "Width": 35,
+                    "Height": 14,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "TextArea",
+                    "TextId": "SingleUseId22",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Alpha": 255,
+                    "AutoSize": true,
+                    "LineSpacing": 0,
+                    "Name": "bulb5_text",
+                    "X": 253,
+                    "Y": 221,
+                    "Width": 35,
+                    "Height": 14,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  },
+                  {
+                    "Type": "TextArea",
+                    "TextId": "SingleUseId23",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Alpha": 255,
+                    "AutoSize": true,
+                    "LineSpacing": 0,
+                    "Name": "bulb6_text",
+                    "X": 359,
+                    "Y": 221,
+                    "Width": 35,
+                    "Height": 14,
+                    "Visible": true,
+                    "LockPosition": false,
+                    "Draggable": false,
+                    "Clickable": false,
+                    "Fadeable": false,
+                    "Moveable": false
+                  }
+                ],
+                "Type": "Container",
+                "IsCacheableContainer": true,
+                "Name": "page1",
+                "X": 0,
+                "Y": 0,
+                "Width": 440,
+                "Height": 272,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              }
+            ],
+            "Type": "SwipeContainer",
+            "SwipeCutoff": 50,
+            "ShowPageIndicator": false,
+            "PageIndicatorX": 0,
+            "PageIndicatorY": 0,
+            "CenteredX": false,
+            "IndicatorImageNormal": "__designer\\Blue_PageIndicator_dot_indicator_small_normal.png",
+            "IndicatorImageHighlight": "__designer\\Blue_PageIndicator_dot_indicator_small_highlight.png",
+            "EndSwipeElasticWidth": 50,
+            "SelectedPage": "page1",
+            "Style": "Style1",
+            "Name": "switch_box_swipe",
+            "X": 40,
+            "Y": 0,
+            "Width": 440,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "wifi_btn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "smart_config_mode"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "config_btn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "config_page"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ],
+        "Name": "Screen1",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "Box",
+            "Color": {
+              "Red": 127,
+              "Green": 102,
+              "Blue": 250
+            },
+            "Alpha": 255,
+            "Name": "box1",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "CircleProgress",
+            "FileNameProgress": "__designer\\Blue_ProgressIndicators_bg_medium_circle_indicator_bg_line_full.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 52,
+            "CenterY": 52,
+            "Radius": 50,
+            "LineWidth": 0,
+            "StartAngle": 0,
+            "EndAngle": 360,
+            "CapPrecision": "Butt",
+            "Alpha": 255,
+            "IndicatorPositionX": 0,
+            "IndicatorPositionY": 0,
+            "IndicatorPositionWidth": 0,
+            "IndicatorPositionHeight": 0,
+            "ProgressRangeMin": 0,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 0,
+            "ProgressRangeStepsMin": 0,
+            "ProgressInitialValue": 60,
+            "Name": "circleProgress1",
+            "X": 188,
+            "Y": 19,
+            "Width": 104,
+            "Height": 104,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId15",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 89,
+              "Green": 167,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea1",
+            "X": 232,
+            "Y": 64,
+            "Width": 17,
+            "Height": 14,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "on_off_btn.png",
+            "Alpha": 255,
+            "Name": "image2",
+            "X": 139,
+            "Y": 212,
+            "Width": 202,
+            "Height": 43,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId16",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea2",
+            "X": 232,
+            "Y": 225,
+            "Width": 21,
+            "Height": 14,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Pressed": "bck_button.png",
+            "Released": "bck_button.png",
+            "Alpha": 255,
+            "IconPressed": "bck_button.png",
+            "IconReleased": "bck_button.png",
+            "IconX": 0,
+            "IconY": 0,
+            "IconHeight": 35,
+            "IconWidth": 35,
+            "Name": "buttonWithIcon1",
+            "X": 431,
+            "Y": 226,
+            "Width": 35,
+            "Height": 35,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Slider",
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "slider_foreground.png",
+            "BackgroundSelected": "slider_background.png",
+            "Indicator": "slider_knob.png",
+            "BackgroundX": 0,
+            "BackgroundY": 9,
+            "IndicatorPos": 0,
+            "IndicatorMax": 284,
+            "IndicatorMin": 0,
+            "ValueMax": 5,
+            "ValueMin": 0,
+            "InitValue": 0,
+            "Name": "slider1",
+            "X": 80,
+            "Y": 155,
+            "Width": 338,
+            "Height": 34,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithIcon1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ],
+        "Name": "Screen2",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 7200
+      },
+      {
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Filename": "config_bg.png",
+            "Alpha": 255,
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Name": "config_bg",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "config_btn.png",
+            "Released": "config_btn.png",
+            "Alpha": 255,
+            "Name": "smart_config_button",
+            "X": 276,
+            "Y": 75,
+            "Width": 177,
+            "Height": 75,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Pressed": "bck_button.png",
+            "Released": "bck_button.png",
+            "Alpha": 255,
+            "IconPressed": "bck_button.png",
+            "IconReleased": "bck_button.png",
+            "IconX": 0,
+            "IconY": 0,
+            "IconHeight": 35,
+            "IconWidth": 35,
+            "Name": "config_back_button",
+            "X": 411,
+            "Y": 221,
+            "Width": 35,
+            "Height": 35,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "config_back_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "smart_config_button"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "smartConfigMode"
+            }
+          }
+        ],
+        "Name": "smart_config_mode",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "Box",
+            "Color": {
+              "Red": 255,
+              "Green": 159,
+              "Blue": 5
+            },
+            "Alpha": 255,
+            "Name": "box1",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Slider",
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__designer\\Blue_Slider_Horizontal_Medium_Slider2_Round_back.png",
+            "BackgroundSelected": "__designer\\Blue_Slider_Horizontal_Medium_Slider2_Round_fill.png",
+            "Indicator": "__designer\\Blue_Slider_Horizontal_Medium_Indicators_Slider2_Round_nob.png",
+            "BackgroundX": 2,
+            "BackgroundY": 6,
+            "IndicatorPos": 0,
+            "IndicatorMax": 284,
+            "IndicatorMin": 0,
+            "ValueMax": 100,
+            "ValueMin": 0,
+            "InitValue": 0,
+            "Style": "Style10",
+            "Name": "btns_slider",
+            "X": 71,
+            "Y": 119,
+            "Width": 338,
+            "Height": 34,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Pressed": "bck_button.png",
+            "Released": "bck_button.png",
+            "Alpha": 255,
+            "IconPressed": "bck_button.png",
+            "IconReleased": "bck_button.png",
+            "IconX": 0,
+            "IconY": 0,
+            "IconHeight": 35,
+            "IconWidth": 35,
+            "Name": "buttonWithIcon1",
+            "X": 392,
+            "Y": 210,
+            "Width": 35,
+            "Height": 35,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithIcon1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ],
+        "Name": "config_page",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "TextEntries": [
+      {
+        "TextEntryId": "SingleUseId15",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId16",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId17",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId18",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId19",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId20",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId21",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId22",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId23",
+        "IsResource": false
+      }
+    ],
+    "Name": "FirstWorkout",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32F7508-DK.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7"
+  },
+  "Version": "4.17.0",
+  "CreatedBy": "4.17.0"
+}

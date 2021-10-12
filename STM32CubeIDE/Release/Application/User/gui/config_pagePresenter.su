@@ -1,0 +1,6 @@
+ModelListener.hpp:12:18:virtual void ModelListener::TuyaReady()	0	static
+config_pagePresenter.hpp:28:13:config_pagePresenter::~config_pagePresenter()	0	static
+config_pagePresenter.cpp:10:6:virtual void config_pagePresenter::activate()	0	static
+config_pagePresenter.hpp:28:13:virtual config_pagePresenter::~config_pagePresenter()	8	static
+config_pagePresenter.hpp:28:13:virtual void* config_pagePresenter::_ZThn4_N20config_pagePresenterD1Ev()	0	static
+config_pagePresenter.cpp:4:1:config_pagePresenter::config_pagePresenter(config_pageView&)	8	static

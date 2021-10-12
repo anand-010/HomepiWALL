@@ -1,0 +1,19 @@
+Screen.hpp:103:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:153:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+Screen1View.cpp:57:6:virtual void Screen1View::tearDownScreen()	0	static
+Callback.hpp:290:8:touchgfx::Callback<Screen1View, const touchgfx::Image&, const touchgfx::ClickEvent&>::~Callback()	0	static
+Callback.hpp:318:18:void touchgfx::Callback<dest_type, T1, T2, void>::execute(T1, T2) [with dest_type = Screen1View; T1 = const touchgfx::Image&; T2 = const touchgfx::ClickEvent&]	12	static
+Callback.hpp:328:18:bool touchgfx::Callback<dest_type, T1, T2, void>::isValid() const [with dest_type = Screen1View; T1 = const touchgfx::Image&; T2 = const touchgfx::ClickEvent&]	0	static
+Callback.hpp:290:8:virtual touchgfx::Callback<Screen1View, const touchgfx::Image&, const touchgfx::ClickEvent&>::~Callback()	8	static
+Screen1View.cpp:31:6:virtual void Screen1View::setupScreen()	8	static
+Screen1View.cpp:61:6:void Screen1View::boxClickHandler(const touchgfx::Image&, const touchgfx::ClickEvent&)	40	static
+Screen1View.cpp:232:6:virtual void Screen1View::handleTickEvent()	8	static
+Screen1View.cpp:216:6:virtual void Screen1View::TuyaReady()	24	static
+Types.hpp:178:10:bool touchgfx::Rect::intersect(int16_t, int16_t) const	8	static
+Screen1View.cpp:27:1:Screen1View::Screen1View()	8	static
+Screen1View.cpp:206:6:void Screen1View::switch1operation(bool)	24	static
+ClickListener.hpp:49:18:void touchgfx::ClickListener<T>::handleClickEvent(const touchgfx::ClickEvent&) [with T = touchgfx::Image]	16	static
+Screen1View.cpp:254:6:virtual void Screen1View::handleDragEvent(const touchgfx::DragEvent&)	8	static
+Screen1View.cpp:262:6:virtual void Screen1View::handleClickEvent(const touchgfx::ClickEvent&)	16	static
+Screen1View.hpp:12:13:Screen1View::~Screen1View()	8	static
+Screen1View.hpp:12:13:virtual Screen1View::~Screen1View()	8	static

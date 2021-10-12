@@ -1,0 +1,7 @@
+system.c:35:16:set_wifi_uart_byte	0	static
+system.c:52:16:set_wifi_uart_buffer	16	static
+system.c:68:15:get_check_sum	0	static
+system.c:105:6:wifi_uart_write_frame	16	static
+system.c:392:6:data_handle	176	static
+system.c:735:15:with_data_rxbuff	0	static
+system.c:748:15:take_byte_rxbuff	0	static

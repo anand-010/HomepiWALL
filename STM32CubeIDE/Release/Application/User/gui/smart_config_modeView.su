@@ -1,0 +1,9 @@
+Screen.hpp:103:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:143:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+Screen.hpp:153:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+smart_config_modeView.hpp:11:13:smart_config_modeView::~smart_config_modeView()	0	static
+smart_config_modeView.cpp:15:6:virtual void smart_config_modeView::tearDownScreen()	0	static
+smart_config_modeView.cpp:10:6:virtual void smart_config_modeView::setupScreen()	0	static
+smart_config_modeView.cpp:19:6:virtual void smart_config_modeView::smartConfigMode()	0	static
+smart_config_modeView.hpp:11:13:virtual smart_config_modeView::~smart_config_modeView()	8	static
+smart_config_modeView.cpp:6:1:smart_config_modeView::smart_config_modeView()	8	static

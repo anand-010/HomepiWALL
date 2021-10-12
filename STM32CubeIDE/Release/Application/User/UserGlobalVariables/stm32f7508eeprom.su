@@ -1,0 +1,7 @@
+stm32f7508eeprom.c:164:10:BSP_EEPROM_Init	8	static
+stm32f7508eeprom.c:187:9:BSP_EEPROM_DeInit	0	static
+stm32f7508eeprom.c:463:13:BSP_EEPROM_TIMEOUT_UserCallback	0	static
+stm32f7508eeprom.c:208:10:BSP_EEPROM_ReadBuffer	8	static
+stm32f7508eeprom.c:447:10:BSP_EEPROM_WaitEepromStandbyState	8	static
+stm32f7508eeprom.c:255:10:BSP_EEPROM_WritePage	8	static
+stm32f7508eeprom.c:290:10:BSP_EEPROM_WriteBuffer	40	static

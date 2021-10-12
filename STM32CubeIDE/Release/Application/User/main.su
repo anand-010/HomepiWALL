@@ -1,0 +1,10 @@
+main.c:643:6:StartTaskTuyaInt	8	static
+Usart_defenition.h:7:6:tuyaUart	0	static
+Usart_defenition.h:12:6:setUartInterrupt	0	static
+main.c:602:6:StartDefaultTask	8	static
+Usart_defenition.h:15:6:HAL_UART_RxCpltCallback	8	static
+Usart_defenition.h:23:6:transmitUart	0	static
+main.c:221:6:SystemClock_Config	224	static
+main.c:116:5:main	104	static,ignoring_inline_asm
+main.c:735:6:HAL_TIM_PeriodElapsedCallback	0	static
+main.c:752:6:Error_Handler	0	static

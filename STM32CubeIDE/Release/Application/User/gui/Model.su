@@ -1,0 +1,3 @@
+Model.cpp:5:1:Model::Model()	0	static
+Model.cpp:17:6:void Model::TuyaReady()	0	static
+Model.cpp:10:6:void Model::tick()	8	static
